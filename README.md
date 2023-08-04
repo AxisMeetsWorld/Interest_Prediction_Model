@@ -8,3 +8,8 @@
 <p align="center">💵 💶 💴 💷 💰 💸 </p>
 ## So, how does all of this come together when using regression and machine learning?## 
 For now, take a look at the code and write up, and there will be more here to emphasise the different techniques used in the process, but as of right now this project is still in development. 
+
+
+
+
+*A quick side note: there are some interesting reports addressing that some of the inflationary data is from corporate profits that are in excess of what market conditions would dictate further increasing inflation. It might be worth further study to read [this article](/https://www.ineteconomics.org/perspectives/blog/profit-inflation-is-real) and compare with the machine learning done here.* 
