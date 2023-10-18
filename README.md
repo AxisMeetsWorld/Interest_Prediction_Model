@@ -10,19 +10,9 @@
 <font color="blue"> So, how does all of this come together when using regression and machine learning?</font>
 
 For now, take a look at the code and write up, and there will be more here to emphasise the different techniques used in the process, but as of right now this project is still in development. A few notes on this:
-* This is not a traditional use of PyTorch programming as it generally is aimed at breaking down image data, auditory data, or text.
-* However, due to the power of neural networks, and the opportunity to learn here, I thought this is a great way to test aptitude, and perhaps perform some powerful work that might be fodder for even more advanced machine learning study of inflationary metrics.
-* There was a bit of prep work implemented in the study that also attempted to account for lag times and other factors influencing inflationary pressures.
-
-**It is worth noting that I haven't been able to get the accuracy values up or the loss values down at this point, and am finding inconsistency between different epoch values.**
-
-## Right now, we are in the process of identifying the best ways of tuning the model and have tried the following approaches:
-
-* Using data augmentation by transforming the original dataset to expand.
-* Looking at different parameters like momentum, and optmiization functions.
-* Addressing loss functions that work with regression and continuous data.
-* Setting up an accuracy function that can look at whether a predicted value is within a certain percentage of the target value.
-
+* This is not a traditional use of PyTorch programming as it generally is aimed at breaking down image data, auditory data, or text. Due to this the project was modified to use more of a Numpy/Scikit Learn approach but there are a few PyTorch tensors left in case a similar study would lend itself to deep learning.
+* The data was tested for lag times, and used polynomial regression fitting to perform regression analysis.
+* After accounting for lag times and curve fitting, the input columns went through a multi-variate regression analysis. 
 
 
 *A quick side note: there are some interesting reports addressing that some of the inflationary data is from corporate profits that are in excess of what market conditions would dictate further increasing inflation. It might be worth further study to read [this article](/https://www.ineteconomics.org/perspectives/blog/profit-inflation-is-real) and compare with the machine learning done here.* 
