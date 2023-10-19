@@ -1,5 +1,6 @@
 # Interest_Prediction model
-## This is the first project I am currently working on to practice some machine learning in PyTorch taking data that influences inflation and then attempting to see, given appropriate time lags if we can predict when it might spike. Here are the inputs:
+## This initially was the first project I worked on to practice some machine learning in PyTorch taking data that influences inflation and then attempting to see, given appropriate time lags if we can predict when it might spike. ⚫ 🔴 🟢 After going in circles, and realizing this data wasn't really meant for **deep learning** as opposed to **machine learning** it was decided to use Numpy regression analysis for this model building study. The **restructured** file is the one with the appropriate outputs. However if any contributor had ideas to make this work with neural networks, that would be welcome! 🟢 🔴 ⚫ 
+**Here are the inputs:**
 * Data gathered from the Federal Reserve Bank of St. Luis [here](https://fred.stlouisfed.org/series/M1SL/)
 * Data gathered from BEA on Gross Domestic Product [here](https://apps.bea.gov/iTable/?reqid=19&step=2&isuri=1&categories=survey#eyJhcHBpZCI6MTksInN0ZXBzIjpbMSwyLDNdLCJkYXRhIjpbWyJjYXRlZ29yaWVzIiwiU3VydmV5Il0sWyJOSVBBX1RhYmxlX0xpc3QiLCIzIl1dfQ==/)
 * Data on JSTOL or the number of jobs not filled by the end of a month again from the Federal Reserve Bank of St. Louis [here](https://fred.stlouisfed.org/series/JTSJOL)
@@ -10,7 +11,7 @@
 <font color="blue"> So, how does all of this come together when using regression and machine learning?</font>
 
 For now, take a look at the code and write up, and there will be more here to emphasise the different techniques used in the process, but as of right now this project is still in development. A few notes on this:
-* This is not a traditional use of PyTorch programming as it generally is aimed at breaking down image data, auditory data, or text. Due to this the project was modified to use more of a Numpy/Scikit Learn approach but there are a few PyTorch tensors left in case a similar study would lend itself to deep learning.
+* This was not a traditional use of PyTorch programming as it generally is aimed at breaking down image data, auditory data, or text. Due to this the project was modified to use more of a Numpy/Scikit Learn approach but there are a few PyTorch tensors left in case a similar study would lend itself to deep learning. *Again see the "restructured" file.*
 * The data was tested for lag times, and used polynomial regression fitting to perform regression analysis.
 * After accounting for lag times and curve fitting, the input columns went through a multi-variate regression analysis. 
 *The correct file is the Interest_Project_restructured, while the preliminary attempt was just named Interest_Project.*
