@@ -11,7 +11,7 @@
 <font color="blue"> So, how does all of this come together when using regression and machine learning?</font>
 
 For now, take a look at the code and write up, and there will be more here to emphasise the different techniques used in the process, but as of right now this project is still in development. A few notes on this:
-* This was not a traditional use of PyTorch programming as it generally is aimed at breaking down image data, auditory data, or text. Due to this the project was modified to use more of a Numpy/Scikit Learn approach but there are a few PyTorch tensors left in case a similar study would lend itself to deep learning. *Again see the "restructured" file.*
+* This was not a traditional use of PyTorch programming as it generally is aimed at breaking down image data, auditory data, or text. Due to this the project was modified to use more of a Numpy/Scikit Learn approach but there are a few PyTorch tensors left in case a similar study would lend itself to deep learning. *Again see the ["restructured" file](https://github.com/AxisMeetsWorld/Interest_Prediction_Model/blob/main/Interest_Project_restructured.ipynb).*
 * The data was tested for lag times, and used polynomial regression fitting to perform regression analysis.
 * After accounting for lag times and curve fitting, the input columns went through a multi-variate regression analysis. 
 *The correct file is the Interest_Project_restructured, while the preliminary attempt was just named Interest_Project.*
