@@ -16,4 +16,4 @@ For now, take a look at the code and write up, and there will be more here to em
 * After accounting for lag times and curve fitting, the input columns went through a multi-variate regression analysis. 
 *The correct file is the Interest_Project_restructured, while the preliminary attempt was just named Interest_Project.*
 
-*A quick side note: there are some interesting reports addressing that some of the inflationary data is from corporate profits that are in excess of what market conditions would dictate further increasing inflation. It might be worth further study to read [this article](/https://www.ineteconomics.org/perspectives/blog/profit-inflation-is-real) and compare with the machine learning done here.* 
+*A quick side note: there are some interesting reports addressing that some of the inflationary data is from corporate profits that are in excess of what market conditions would dictate further increasing inflation. It might be worth further study to read [this article](https://www.ineteconomics.org/perspectives/blog/profit-inflation-is-real) and compare with the machine learning done here.* 
